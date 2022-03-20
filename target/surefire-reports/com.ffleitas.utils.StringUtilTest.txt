@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.ffleitas.utils.StringUtilTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE!
-null_is_empty(com.ffleitas.utils.StringUtilTest)  Time elapsed: 0.005 sec  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+null_is_empty(com.ffleitas.utils.StringUtilTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.ffleitas.utils.StringUtil.isEmpty(StringUtil.java:7)
 	at com.ffleitas.utils.StringUtilTest.null_is_empty(StringUtilTest.java:20)
@@ -23,8 +23,8 @@ java.lang.NullPointerException
 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:242)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:137)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
